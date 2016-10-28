@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: inherit;
+  color: #333; }
+
+*::after, *::before {
+  box-sizing: border-box; }
+
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.box {
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.15); }
+
+h1 {
+  font-size: 225%;
+  padding: 0 15px; }
+
+h2 {
+  font-size: 200%;
+  padding: 0 15px; }
+
+h3 {
+  font-size: 175%;
+  padding: 0 15px; }
+
+h4 {
+  font-size: 150%;
+  padding: 0 15px; }
+
+h5 {
+  font-size: 125%;
+  padding: 0 15px; }
+
+h6 {
+  font-size: 100%;
+  padding: 0 15px; }
+
+table {
+  border-collapse: collapse;
+  width: 100%; }
+
+caption {
+  font-size: 110%;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
+
+th, td {
+  text-align: left;
+  padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
+
+tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.025); }
+
+table.bordered th {
+  border: 1px solid rgba(0, 0, 0, 0.15); }
+table.bordered td {
+  border: 1px solid rgba(0, 0, 0, 0.15); }
+
+label {
+  font-weight: bold; }
+
+input, select, textarea {
+  font-size: medium;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  width: 100%; }
+
+button, .button {
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  padding: 0 35px;
+  display: inline-block;
+  width: auto;
+  line-height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.15); }
+
+legend {
+  font-weight: bold; }
+
+form .control {
+  margin-bottom: 5px; }
+
+fieldset {
+  border-style: solid;
+  border-top-width: 1px;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-color: rgba(0, 0, 0, 0.15); }
+  fieldset.inline {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap; }
+  fieldset.inline .control {
+    margin-right: 10px; }
+  fieldset.no-border legend {
+    padding: 0; }
+
+.inner {
+  padding: 15px; }
+
+.inline {
+  display: inline; }
+
+.no-border {
+  border: none; }
+
+th.wauto, td.wauto {
+  width: 1%;
+  white-space: nowrap; }
+
+/*# sourceMappingURL=style.css.map */

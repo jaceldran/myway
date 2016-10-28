@@ -1,0 +1,55 @@
+
+label {
+	font-weight: bold;
+}
+
+input, select, textarea {
+	font-size: medium;
+	cursor: pointer;
+	border: 1px solid rgba(0,0,0,.15);
+	padding: 10px;
+	width: 100%;
+}
+
+button, .button {
+	cursor: pointer;	
+	text-align: center;
+	text-decoration: none;	
+	padding: 0 35px;
+	display: inline-block;	
+	width: auto;
+	line-height: 50px;
+	border: 1px solid rgba(0,0,0,.15);	
+}
+
+legend {
+	font-weight: bold;	
+}
+
+form .control {
+	margin-bottom: 5px;
+}
+
+fieldset {
+	border-style: solid;
+	border-top-width: 1px;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-bottom-width: 0;
+	border-color: rgba(0,0,0,.15);
+
+	&.inline {
+		display: flex;
+		align-items: center;
+		flex-flow: row wrap;	
+	}
+
+	&.inline .control {
+		margin-right: 10px;
+	}
+
+	&.no-border legend {
+		padding: 0;	
+	}
+	
+}

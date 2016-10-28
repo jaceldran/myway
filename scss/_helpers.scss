@@ -1,0 +1,17 @@
+
+.inner {
+	padding: $gutter-default;
+}
+
+.inline {
+	display: inline;
+}
+
+.no-border {
+	border: none;
+}
+
+th.wauto, td.wauto {
+	width: 1%;
+	white-space: nowrap;
+}
