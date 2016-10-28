@@ -1,5 +1,5 @@
 # myway
 
-status: ALFA
+status: WORK IN PROGRESS
 
-Style and Javascript I've stolen from here and there...
+Style and Javascript I've stolen from here and there and something of my homegrown...

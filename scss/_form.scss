@@ -3,7 +3,7 @@ label {
 	font-weight: bold;
 }
 
-input, select, textarea {
+input:not([type=checkbox]), select, textarea {
 	font-size: medium;
 	cursor: pointer;
 	border: 1px solid rgba(0,0,0,.15);

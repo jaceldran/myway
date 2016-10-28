@@ -32,3 +32,8 @@ table.bordered {
 		border: $border-default;
 	}
 }
+
+th.wauto, td.wauto {
+	width: 1%;
+	white-space: nowrap;
+}
